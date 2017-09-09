@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Scanner;
 import java.util.Stack;
 
 /**
@@ -12,36 +11,24 @@ import java.util.Stack;
  * peek.- Utilizado para visualizar cual es el ultimo dato de la pila
  * empty.- Utilizado para saber si la pila tiene datos o no adentro
  */
-public class Pila
+public class Pila extends Generales
 {
-
-
-    // Variables globales
-    private Scanner sc = new Scanner(System.in);
-
-    public void limpiaPantalla(int lineas)
-    {
-        for (int i = 0; i < lineas; i++)
-        {
-            System.out.println("");
-        }
-    }
-
+    // Ingresar datos a la Pila
     public Stack pilaIngresaDatos( Stack pila )
     {
 
         // Agregando los datos a la Pila
-        System.out.println("Ingresa un valor: ");
+        this.imprimel("Ingresa un valor: ");
         pila.push( sc.next() );
 
         // Preguntando si se desea seguir agregando datos o regresar
         String volver;
-        System.out.println("Quieres agregar mas datos? S/N: ");
+        this.imprimel("Quieres agregar mas datos? S/N: ");
         volver = sc.next();
 
         if (volver.charAt(0) == 'S' || volver.charAt(0) == 's')
         {
-            this.limpiaPantalla(5);
+            this.limpiaPantalla(2);
             this.pilaIngresaDatos( pila );
         }
 
@@ -49,30 +36,31 @@ public class Pila
 
     }
 
+    // Ver información contenida en la Pila
     public void pilaVerDatos( Stack pila )
     {
-        System.out.println("\nDatos de la Pila: ");
+        this.imprime("\nDatos de la Pila: ");
 
-        for( int i=0; i < pila.size(); i++ )
+        for( int i = pila.size(); i > 0; i-- )
         {
-            System.out.println( pila.get( i ) );
+            System.out.println( pila.get( i - 1 ) );
         }
     }
 
+    // Eliminando el ultimo elemento de la pila(siempre)
     public Stack pilaEliminaDatos( Stack pila )
     {
         // Verificamos que la pila no este vacia para eliminar datos
         if (!pila.isEmpty())
         {
+            this.imprime("Se ha eliminado este elemento ->" + pila.peek() +"<- de la pila");
             pila.pop();
-            System.out.println("Se ha eliminado el ultimo elemento de la pila");
         }
         else
         {
-            System.out.println("La pila esta vacia, no se pueden eliminar datos");
+            this.imprime("La pila esta vacia, no se pueden eliminar datos");
         }
 
         return pila;
     }
-
 }

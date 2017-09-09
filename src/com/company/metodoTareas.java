@@ -1,58 +1,19 @@
 package com.company;
 import java.util.Scanner;
 import java.util.Stack;
+import java.util.LinkedList;
 
 /**
  * Created by codehero on 07/09/17.
  */
-public class metodoTareas extends Pila
+public class metodoTareas extends Generales
 {
 
     // Variables globales privadas
-    private Scanner sc = new Scanner(System.in);
     Stack<String> pilaBase = new Stack();
-
-    /**
-     * Metodos generales, estos seran reutilizados a lo largo de las aplicaciones
-     */
-    public void imprime(String valor)
-    {
-        System.out.println(valor);
-    }
-
-    public void imprimel(String valor)
-    {
-        System.out.print(valor);
-    }
-
-    public void limpiaPantalla(int lineas)
-    {
-        for (int i = 0; i < lineas; i++)
-        {
-            this.imprime("");
-        }
-    }
-
-    public void repeat(String tarea)
-    {
-        String volver;
-        this.imprime("Deseas realizar otra acción? S/N: ");
-        volver = sc.next();
-
-        if (volver.charAt(0) == 'S' || volver.charAt(0) == 's')
-        {
-            this.limpiaPantalla(10);
-            switch (tarea)
-            {
-                case "t1": this.menuPrincipal(); break;
-                default: this.imprime("Opcion no encontrada"); break;
-            }
-        }
-        else
-        {
-            this.imprime("Gracias por usar el sistema");
-        }
-    }
+    LinkedList<String> colaBase = new LinkedList();
+    private Pila pila = new Pila();
+    private Cola cola = new Cola();
 
     // Metodos =====================
     public void menuPrincipal()
@@ -74,10 +35,15 @@ public class metodoTareas extends Pila
             switch (opcion)
             {
                 case 1:
+                    this.imprime("");
                     this.menuPila();
                     break;
                 case 2:
-                    this.imprime("Ir a menu Cola");
+                    this.imprime("1");
+                    this.menuCola();
+                    break;
+                case 6:
+                    this.imprime("Gracias por utilizar el programa, vuelve pronto!!");
                     break;
                 default:
                     this.imprime("Opción no valida, favor de seleccionar una correcta");
@@ -96,7 +62,7 @@ public class metodoTareas extends Pila
     public void menuPila()
     {
         Integer opcion = 0;
-        this.imprime("Submenu - Pila");
+        this.imprime("Submenu - Pila (Primero en Entrar - Ultimo en Salir)");
         this.imprime("Selecciona el numero de opcion que deseas realizar");
         this.imprime("1.- Agregar datos a la pila(poner)");
         this.imprime("2.- Consultar datos de la pila");
@@ -109,16 +75,16 @@ public class metodoTareas extends Pila
             switch (opcion)
             {
                 case 1:
-                    this.pilaBase = this.pilaIngresaDatos( this.pilaBase );
+                    this.pilaBase = pila.pilaIngresaDatos( this.pilaBase );
                     this.menuPila();
                     break;
                 case 2:
-                    this.pilaVerDatos( this.pilaBase );
+                    pila.pilaVerDatos( this.pilaBase );
                     this.imprime("");
                     this.menuPila();
                     break;
                 case 3:
-                    this.pilaBase = this.pilaEliminaDatos( this.pilaBase );
+                    this.pilaBase = pila.pilaEliminaDatos( this.pilaBase );
                     this.imprime("");
                     this.menuPila();
                     break;
@@ -134,6 +100,52 @@ public class metodoTareas extends Pila
         catch (Exception ex)
         {
         this.imprime("Error!! seleccionar solo numeros enteros, volver a ejecutar");
+
+        }
+    }
+
+    // Menu de Cola=====================
+    public void menuCola()
+    {
+        Integer opcion = 0;
+        this.imprime("Submenu - Cola (Primero en Entrar - Primero en Salir)");
+        this.imprime("Selecciona el numero de opcion que deseas realizar");
+        this.imprime("1.- Agregar datos a la cola(poner)");
+        this.imprime("2.- Consultar datos de la cola");
+        this.imprime("3.- Sacar datos de la cola(quita)");
+        this.imprime("4.- Regresar al menu principal");
+
+        try
+        {
+            opcion = sc.nextInt();
+            switch (opcion)
+            {
+                case 1:
+                    this.colaBase = cola.colaIngresaDatos( this.colaBase );
+                    this.menuCola();
+                    break;
+                case 2:
+                    cola.colaVerDatos( this.colaBase );
+                    this.imprime("");
+                    this.menuCola();
+                    break;
+                case 3:
+                    this.colaBase = cola.colaEliminaDatos( this.colaBase );
+                    this.imprime("");
+                    this.menuCola();
+                    break;
+                case 4:
+                    this.menuPrincipal();
+                    break;
+                default:
+                    this.imprime("Opción no valida, favor de seleccionar una correcta");
+                    this.menuCola();
+                    break;
+            }
+        }
+        catch (Exception ex)
+        {
+            this.imprime("Error!! seleccionar solo numeros enteros, volver a ejecutar");
 
         }
     }
