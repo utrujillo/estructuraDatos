@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Scanner;
 import java.util.Stack;
 import java.util.LinkedList;
 
@@ -84,7 +83,7 @@ public class metodoTareas extends Generales
                     this.menuPila();
                     break;
                 case 3:
-                    this.pilaBase = pila.pilaEliminaDatos( this.pilaBase );
+                    this.pilaBase  = pila.pilaEliminaDatos( this.pilaBase );
                     this.imprime("");
                     this.menuPila();
                     break;
