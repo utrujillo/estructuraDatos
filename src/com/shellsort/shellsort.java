@@ -1,21 +1,34 @@
-package com.bubblesort;
-
+package com.shellsort;
 
 import com.mOrdenamiento.mOrdenamiento;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by codehero on 21/09/17.
+ * Created by codehero on 04/10/17.
  */
-public class Bubblesort {
+public class shellsort {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        boolean accepted = false;
+        Integer tamanoArray = 0;
 
-        System.out.print("Cuantos elementos deseas ordenar? ");
-        Integer[] myArray = new Integer[ sc.nextInt() ];
+        while ( accepted == false )
+        {
+            System.out.print("Cuantos elementos deseas ordenar? ");
+            tamanoArray = sc.nextInt();
+
+            if ( tamanoArray % 2 == 0 ) {
+                accepted = true;
+            }else{
+                System.out.println("El metodo Shellsort funciona solo con multiplos de 2");
+            }
+
+        }
+
+        Integer[] myArray = new Integer[ tamanoArray ];
 
         // Leemos los numeros y los asignamos al arreglo principal(sin ordenar)
         for (Integer i = 0; i < myArray.length; i++)
@@ -26,13 +39,13 @@ public class Bubblesort {
 
         //Imprimimos los numeros almacenamos
         System.out.println( "Los datos insertados: " + Arrays.toString( myArray ) );
-        /*for(Integer item : myArray){
-            System.out.print( item+" " );
-        }*/
+
 
         mOrdenamiento order = new mOrdenamiento();
 
-        order.bubbleSort( myArray );
+        order.shellSort( myArray );
+
 
     }
+
 }

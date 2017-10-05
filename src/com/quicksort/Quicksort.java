@@ -1,14 +1,13 @@
-package com.bubblesort;
-
+package com.quicksort;
 
 import com.mOrdenamiento.mOrdenamiento;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by codehero on 21/09/17.
+ * Created by codehero on 02/10/17.
  */
-public class Bubblesort {
+public class Quicksort {
 
     public static void main(String[] args) {
 
@@ -32,7 +31,10 @@ public class Bubblesort {
 
         mOrdenamiento order = new mOrdenamiento();
 
-        order.bubbleSort( myArray );
+        Integer[] quickSortOrder = order.quickSort( myArray, 0, myArray.length - 1 );
+
+        System.out.println( "Arreglo ordenado con Algoritmo QuickSort: "+ Arrays.toString( quickSortOrder ) );
 
     }
+
 }
