@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b43bea7-50e3-4fd0-a96c-6558c0620a5e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/estructuraDatos/com/mOrdenamiento/ordenamientos.class" afterPath="$PROJECT_DIR$/out/production/estructuraDatos/com/mOrdenamiento/ordenamientos.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mOrdenamiento/ordenamientos.java" afterPath="$PROJECT_DIR$/src/com/mOrdenamiento/ordenamientos.java" />
     </list>
