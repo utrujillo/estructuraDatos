@@ -91,12 +91,15 @@ public class ordenamientos {
         // Leemos los numeros y los asignamos al arreglo principal(sin ordenar)
         for (Integer i = 0; i < this.myArray.length; i++)
         {
-            System.out.print("Inserta un digito: ");
-            this.myArray[ i ] = sc.nextInt();
+            this.myArray[ i ] = this.randomRange(0, 10000);
         }
 
         //Imprimimos los numeros almacenamos
         System.out.println( "Los datos insertados: " + Arrays.toString( this.myArray ) );
+    }
+
+    public int randomRange(int min, int max) {
+        return (int) Math.round(((Math.random() * (max - min)) + min));
     }
 
 }
