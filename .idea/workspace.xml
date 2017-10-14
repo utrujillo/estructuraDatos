@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b43bea7-50e3-4fd0-a96c-6558c0620a5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/arreglouni/Leer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/DemoOrdenamiento.class" afterPath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/DemoOrdenamiento.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/Ordenamiento.class" afterPath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/Ordenamiento.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" afterPath="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" afterPath="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="DemoOrdenamiento.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="405">
+              <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="ArregloUni.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="-153">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
@@ -48,24 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Leer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-              <folding>
-                <element signature="e#1955#1956#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Ordenamiento.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,6 +76,9 @@
       <find>limpia</find>
       <find>sc</find>
       <find>metodosOrdenamiento</find>
+      <find>ingreso</find>
+      <find>arregloUni</find>
+      <find>localizar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,10 +106,10 @@
         <option value="$PROJECT_DIR$/src/com/mOrdenamiento/mOrdenamiento.java" />
         <option value="$PROJECT_DIR$/src/com/shellsort/shellsort.java" />
         <option value="$PROJECT_DIR$/src/com/mOrdenamiento/ordenamientos.java" />
-        <option value="$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java" />
         <option value="$PROJECT_DIR$/src/com/arreglouni/Leer.java" />
-        <option value="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
+        <option value="$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java" />
         <option value="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" />
+        <option value="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
       </list>
     </option>
   </component>
@@ -796,25 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Leer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -826,10 +797,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>

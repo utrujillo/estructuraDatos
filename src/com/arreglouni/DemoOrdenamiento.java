@@ -20,6 +20,7 @@ public class DemoOrdenamiento {
             System.out.println("4. Selección Directa");
             System.out.println("5. Metodo Shell");
             System.out.println("6. Ordenamiento rápido");
+            System.out.println("7. Busqueda secuencial");
             System.out.print("Opcion ==> ");
             opcion=Leer.datoInt();
             if(opcion>0)
@@ -37,6 +38,7 @@ public class DemoOrdenamiento {
                 case 4: datos.seleccion_directa();break;
                 case 5: datos.shell();break;
                 case 6: datos.quicksort(datos.a,0,datos.n-1);break;
+                case 7: datos.busqueda_secuencial(); break;
             }
 
             if(opcion>0)

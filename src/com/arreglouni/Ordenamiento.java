@@ -119,4 +119,20 @@ public class Ordenamiento extends ArregloUni {
             if(left<sup) quicksort(data,left,sup);
         }
     }
+
+    public void busqueda_secuencial(){
+        int i, ele;
+        System.out.print("Elemento a buscar : ");
+        ele=Leer.datoInt();
+
+        i = localizar( ele );
+        switch (i){
+            case -1:
+                System.out.println("Elemento no encontrado \n"); break;
+            case -2:
+                System.out.println("El arreglo esta vacio \n"); break;
+            default:
+                System.out.println("Elemento encontrado en la poscion [ "+ i +" ] del arreglo \n"); break;
+        }
+    }
 }
