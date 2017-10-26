@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b43bea7-50e3-4fd0-a96c-6558c0620a5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/DemoOrdenamiento.class" afterPath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/DemoOrdenamiento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/Ordenamiento.class" afterPath="$PROJECT_DIR$/out/production/estructuraDatos/com/arreglouni/Ordenamiento.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" afterPath="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" afterPath="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,35 +20,12 @@
     <favorites_list name="estructuraDatos" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoOrdenamiento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java">
+    <leaf>
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/basicos/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArregloUni.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="32" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ordenamiento.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -110,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java" />
         <option value="$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java" />
         <option value="$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java" />
+        <option value="$PROJECT_DIR$/src/com/basicos/Factorial.java" />
       </list>
     </option>
   </component>
@@ -133,7 +107,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,35 +156,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="arreglouni" />
+              <option name="myItemId" value="basicos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DemoOrdenamiento">
-    <configuration default="false" name="Quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.quicksort.Quicksort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="estructuraDatos" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Factorial">
     <configuration default="false" name="Prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Prueba" />
@@ -259,6 +218,21 @@
     <configuration default="false" name="DemoOrdenamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.arreglouni.DemoOrdenamiento" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="estructuraDatos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.basicos.Factorial" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -420,19 +394,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Quicksort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Prueba" />
-      <item index="2" class="java.lang.String" itemvalue="Application.shellsort" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ordenamientos" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DemoOrdenamiento" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Prueba" />
+      <item index="1" class="java.lang.String" itemvalue="Application.shellsort" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ordenamientos" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DemoOrdenamiento" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DemoOrdenamiento" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ordenamientos" />
-        <item index="2" class="java.lang.String" itemvalue="Application.shellsort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Prueba" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Quicksort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DemoOrdenamiento" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ordenamientos" />
+        <item index="3" class="java.lang.String" itemvalue="Application.shellsort" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Prueba" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +445,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -504,13 +478,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bubblesort/Bubblesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/metodosOrdenamiento/metodoOrdenamiento.java" />
     <entry file="file://$PROJECT_DIR$/src/com/bubblesort/Bubblesort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,11 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="90" column="79" lean-forward="false" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="100" column="48" lean-forward="false" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,26 +751,26 @@
         <state relative-caret-position="1425">
           <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
-            <element signature="e#1955#1956#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arreglouni/ArregloUni.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="32" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arreglouni/DemoOrdenamiento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="600">
           <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
           <folding />
         </state>
@@ -819,7 +779,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/arreglouni/Ordenamiento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/basicos/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
